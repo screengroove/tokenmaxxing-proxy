@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/:path*",
+      "destination": "https://publish.obsidian.md/serve?url=notebook.tokenmaxxing.ai/:path*"
+    }
+  ]
+}
