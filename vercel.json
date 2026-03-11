@@ -1,8 +1,10 @@
 {
+  "buildCommand": "",
+  "outputDirectory": "public",
   "rewrites": [
     {
-      "source": "/:path*",
-      "destination": "https://publish.obsidian.md/serve?url=notebook.tokenmaxxing.ai/:path*"
+      "source": "/(.*)",
+      "destination": "https://publish.obsidian.md/serve?url=notebook.tokenmaxxing.ai/$1"
     }
   ]
 }
